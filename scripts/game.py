@@ -1,14 +1,7 @@
-# This script must be assigned to a python controller
-# where it can access the object that owns it and the sensors/actuators that it connects to.
-
 import bge
+import Rasterizer
 
-# support for Vector(), Matrix() types and advanced functions like Matrix.Scale(...) and Matrix.Rotation(...)
-# import mathutils
-
-# for functions like getWindowWidth(), getWindowHeight()
-# import Rasterizer
-
+Rasterizer.showMouse(False)
 
 def main():
     cont = bge.logic.getCurrentController()
